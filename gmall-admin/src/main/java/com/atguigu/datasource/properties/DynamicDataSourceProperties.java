@@ -8,6 +8,7 @@
 
 package com.atguigu.datasource.properties;
 
+
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 import java.util.LinkedHashMap;

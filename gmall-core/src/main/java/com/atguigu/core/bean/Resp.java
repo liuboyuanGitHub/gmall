@@ -4,6 +4,11 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
+/**
+ * 响应数据的属性在controller中return中
+ * @param <T>
+ */
+
 @ApiModel
 @Data
 public class Resp<T> {

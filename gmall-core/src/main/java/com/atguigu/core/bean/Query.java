@@ -15,6 +15,7 @@ import org.apache.commons.lang.StringUtils;
 
 /**
  * 查询参数
+ * 将querycondition变成page对象
  *
  * @author Mark sunlightcs@gmail.com
  */
