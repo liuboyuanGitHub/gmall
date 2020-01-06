@@ -30,6 +30,7 @@ import java.util.Arrays;
 public class AttrController {
     @Autowired
     private AttrService attrService;
+
     @GetMapping
     public Resp<PageVo> queryAttrByCidOrTypePage(QueryCondition condition,
                                                  @RequestParam("cid") Long cid,
