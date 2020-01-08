@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 public interface GmallSmsApi {
-    @PostMapping("sms/skuboundssales")
+    @PostMapping("sms/skubounds/sales")
     public Resp<Object> saveSales(@RequestBody SaleVO saleVO);
 }
